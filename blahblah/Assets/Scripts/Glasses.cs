@@ -6,13 +6,11 @@ public class Glasses : MonoBehaviour
 {
 
    public static bool areGlassesEquiped;
-    // Start is called before the first frame update
     void Start()
     {
         makeGlassesFalse();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (Input.GetKeyDown(KeyCode.Q) && !areGlassesEquiped)
