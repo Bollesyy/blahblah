@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PaperScript : MonoBehaviour
 {
     public Text thisText;
+    
     private bool glassesCheck;
   
     void Start()

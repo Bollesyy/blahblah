@@ -5,7 +5,7 @@ using UnityEngine;
 public class BlueObject : MonoBehaviour
 {
 
-    public MeshRenderer meshRenderer;
+    private MeshRenderer meshRenderer;
     // Start is called before the first frame update
     void Start()
     {
